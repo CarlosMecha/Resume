@@ -1,0 +1,34 @@
+\ProvidesPackage{lib/resume}
+
+\newcommand{\horizontalLine}{
+  \line(1,0){482}
+}
+
+\newcommand{\titlesec}[1]{
+  \vspace{-0.8em}
+  \begin{center}
+    \horizontalLine\\
+    \textbf{#1}\\
+    \vspace{-0.7em}
+    \horizontalLine
+  \end{center}
+  \vspace{-0.5em}
+}
+
+\newcommand{\header}[3]{
+  \begin{center}
+    \uppercase{\textbf{\Huge#1}}\\
+    \textbf{\emph{#2}}\\
+    {\small{#3}}
+  \end{center}
+}
+
+\newcommand{\education}[4]{
+  #1: \textbf{\emph{#2}} (#3). #4
+}
+
+\newcommand{\experience}[3]{
+  #1\\
+  \textbf{\emph{#2}}\\
+  #3
+}

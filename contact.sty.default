@@ -1,0 +1,15 @@
+%\ProvidesPackage{contact}
+
+% Default contact file. Fill it with your own information. 
+% To use it discomment the first line.
+
+\newcommand{\name}{My name}
+\newcommand{\email}{My email}
+\newcommand{\address}{My address}
+\newcommand{\status}{
+  Enhancing my Résumé!! 
+}
+\newcommand{\visa}{
+  H1B
+}
+

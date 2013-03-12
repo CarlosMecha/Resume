@@ -3,9 +3,58 @@
 % Version: 2013.1@Canada
 
 \documentclass{template/resume}
+\usepackage{contact}
+\usepackage{lib/resume}
 
 \begin{document}
 
-Hola!
+\header{\name}{\email}{\address}
+
+\titlesec{Objective}
+Working in \textbf{multicultural environments}, involving numerous
+resources within projects, tested my \textbf{perseverance}
+and\textbf{leadership} to \textbf{react} to complicated situations,
+delivering \textbf{quality}, \textbf{confidentiality} and returning the
+trust given to me.
+
+\titlesec{Technical Skills}
+\begin{itemize}
+  \itemsep3pt \parskip0pt \parsep1pt 
+  \item Programming: Java (J2EE), C/C++, C\#, Ruby.
+  \item Experience with databases: Oracle 9g, 10g, 11g, PostgreSQL, MySQL, SQLite, SQLServer.
+  \item Web programming: PHP, JSP, Velocity, JavaScript (jQuery).
+  \item Distributed platforms: Java RMI, CORBA, RCP.
+  \item Frameworks: .NET, Struts, Jersey JAX-RS.
+  \item Scripting: Bash, Perl.
+  \item Programming for mobile devices: Android.
+  \item Others: Lisp, Prolog, CISCO hardware, Maven2, System admin in Linux environments.
+\end{itemize}
+
+\titlesec{Experience}
+\input{include/experience}  
+
+\titlesec{Education}
+\begin{itemize}
+  \itemsep3pt \parskip0pt \parsep1pt
+  \item 
+    \education
+      {2005 –- 2011}
+      {Masters in Computer Science \& Engineering}
+      {Carlos III University of Madrid, Spain}
+      {Major in Distributed Systems. Outstanding results in databases and artificial intelligence.}
+  \item 
+    \education
+      {2009 –- 2010}
+      {Master in Information Systems Architecture}
+      {National Institute of Applied Sciences, Rouen, France}
+      {Exchange student.} 
+\end{itemize}
+
+\titlesec{Others}
+\begin{itemize}
+  \itemsep3pt \parskip0pt \parsep1pt 
+  \item Language ability: English, French, Spanish and learning Japanese.
+  \item Visa: \visa 
+\end{itemize}
 
 \end{document}
