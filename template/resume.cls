@@ -12,6 +12,7 @@
 \usepackage[scaled]{helvet}
 \renewcommand*\familydefault{\sfdefault}
 \thispagestyle{empty}
+\setlength{\parindent}{0in}
 
 % Other options
 
