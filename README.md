@@ -10,4 +10,4 @@ My resume.
 * texlive-lang-spanish
 
 # Use
-Make your own `contact.sty` overriding `contact.default.sty`.
+Make your own `contact.sty` overriding `contact.sty.default`.
