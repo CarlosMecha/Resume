@@ -1,3 +1,4 @@
+% Author: Carlos Mecha
 %\ProvidesPackage{contact}
 
 % Default contact file. Fill it with your own information. 
@@ -10,6 +11,6 @@
   Enhancing my Résumé!! 
 }
 \newcommand{\visa}{
-  H1B
+  I've drawn my visa with MSPaint.
 }
 

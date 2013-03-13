@@ -1,9 +1,13 @@
+% Author: Carlos Mecha
 \ProvidesPackage{lib/resume}
 
+% A horizontal line page-width
 \newcommand{\horizontalLine}{
   \line(1,0){482}
 }
 
+% Section title.
+% param1: Title
 \newcommand{\titlesec}[1]{
   \vspace{-0.8em}
   \begin{center}
@@ -15,6 +19,10 @@
   \vspace{-0.5em}
 }
 
+% Résumé header.
+% param1: By default your name.
+% param2: Your contact information.
+% param3: Address or status.
 \newcommand{\header}[3]{
   \begin{center}
     \uppercase{\textbf{\Huge#1}}\\
@@ -23,16 +31,26 @@
   \end{center}
 }
 
+% A education entry.
+% param1: Date.
+% param2: Title.
+% param3: Place.
+% param4: Description.
 \newcommand{\education}[4]{
   #1: \textbf{\emph{#2}} (#3). #4
 }
 
+% A experience entry.
+% param1: Date and place.
+% param2: Position.
+% param3: Description. It could be a list or paragraph.
 \newcommand{\experience}[3]{
   #1\\
   \textbf{\emph{#2}}\\
   #3
 }
 
+% Default list for résumés
 \newenvironment{rlist}
   {\vspace{-0.5em}\begin{itemize}
     \itemsep3pt \parskip0pt \parsep1pt}

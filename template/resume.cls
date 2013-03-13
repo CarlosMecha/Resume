@@ -1,3 +1,4 @@
+% Author: Carlos Mecha
 \ProvidesClass{template/resume}[2023/03/11 Default résumé template.]
 
 \NeedsTeXFormat{LaTeX2e}
