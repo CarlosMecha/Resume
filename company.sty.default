@@ -1,0 +1,11 @@
+% Author: Carlos Mecha
+%\ProvidesPackage{company}
+
+% Default company file. Fill it with your own information. 
+% To use it discomment the first line.
+% Useful for cover letters.
+
+\newcommand{\theCompany}{Google}
+\newcommand{\theCompanyAddress}{Mountain View, CA}
+\newcommand{\thePosition}{Geek Senior}
+

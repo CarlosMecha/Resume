@@ -1,0 +1,22 @@
+% Carlos Mecha CL
+% Last modification: 11/03/2013
+% Version: 2013.1@Canada
+
+\documentclass{template/cover}
+\usepackage{contact}
+\usepackage{company}
+% If you don't set fromaddress, the indentation doesn't work.
+\def\fromaddress{\null}
+\signature{\myName}
+\longindentation=20em
+
+\begin{document}
+ 
+\begin{letter}{\theCompany\\ \theCompanyAddress}
+  \opening{Dear Sir or Madam,}
+    \input{include/cl}
+  \closing{Sincerely,}
+\end{letter}
+
+\end{document}
+

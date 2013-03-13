@@ -4,15 +4,15 @@
 % Default contact file. Fill it with your own information. 
 % To use it discomment the first line.
 
-\newcommand{\name}{My name}
-\newcommand{\email}{My email}
-\newcommand{\skype}{My skype account}
-\newcommand{\phone}{My phone number}
-\newcommand{\address}{My address}
-\newcommand{\status}{
+\newcommand{\myName}{My name}
+\newcommand{\myEmail}{My email}
+\newcommand{\mySkype}{My skype account}
+\newcommand{\myPhone}{My phone number}
+\newcommand{\myAddress}{My address}
+\newcommand{\myStatus}{
   Enhancing my Résumé!! 
 }
-\newcommand{\visa}{
+\newcommand{\myVisa}{
   I'm able to work in Mordor.
 }
 
