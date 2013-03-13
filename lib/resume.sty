@@ -41,13 +41,14 @@
 }
 
 % A experience entry.
-% param1: Date and place.
-% param2: Position.
-% param3: Description. It could be a list or paragraph.
-\newcommand{\experience}[3]{
-  #1\\
-  \textbf{\emph{#2}}\\
-  #3
+% param1: Date.
+% param2: Company.
+% param3: Position.
+% param4: Description. It could be a list or paragraph.
+\newcommand{\experience}[4]{
+  #1, \underline{#2}\\
+  \textbf{\emph{#3}}\\
+  #4
 }
 
 % Default list for résumés
