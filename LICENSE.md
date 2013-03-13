@@ -22,4 +22,4 @@ SOFTWARE.
 
 # Contact information
 
-This template should not be distributed with the contact information.
+This template should not be distributed with any personal information.
