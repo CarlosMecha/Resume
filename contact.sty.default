@@ -6,6 +6,8 @@
 
 \newcommand{\name}{My name}
 \newcommand{\email}{My email}
+\newcommand{\skype}{My skype account}
+\newcommand{\phone}{My phone number}
 \newcommand{\address}{My address}
 \newcommand{\status}{
   Enhancing my Résumé!! 
