@@ -1,5 +1,5 @@
 % Author: Carlos Mecha
-\ProvidesClass{template/resume}[2013/03/11 Default résumé template.]
+\ProvidesClass{template/resume}[2016/01/06 Default résumé template.]
 
 \NeedsTeXFormat{LaTeX2e}
 \LoadClass[a4paper,9pt]{extarticle}
@@ -9,7 +9,7 @@
 \usepackage{hyperref}
 
 % Format
-\usepackage[top=1cm, bottom=1cm, left=1.7cm, right=1.7cm]{geometry}
+\usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
 \usepackage[scaled]{helvet}
 \renewcommand*\familydefault{\sfdefault}
 \thispagestyle{empty}
