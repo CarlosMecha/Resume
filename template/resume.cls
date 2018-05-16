@@ -9,7 +9,7 @@
 \usepackage{hyperref}
 
 % Format
-\usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+\usepackage[top=2.2cm, bottom=2.2cm, left=2cm, right=2cm]{geometry}
 \usepackage[scaled]{helvet}
 \renewcommand*\familydefault{\sfdefault}
 \thispagestyle{empty}
