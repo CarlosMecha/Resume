@@ -11,7 +11,7 @@ See `LICENSE.md`.
 
 ### Ubuntu/Debian distributions
 * texlive
-* texlive-lang-[language]
+* texlive-lang-[language] (for the current content, use textlive-lang-spanish and textlive-lang-french)
 
 ## If you want to use this résumé and cover letter template
 * Make your own `contact.sty` overriding `contact.sty.default`.

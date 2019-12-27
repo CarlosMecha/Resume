@@ -1,4 +1,5 @@
 % Author: Carlos Mecha
+\RequirePackage[T1]{fontenc}
 \ProvidesClass{template/resume}[2016/01/06 Default résumé template.]
 
 \NeedsTeXFormat{LaTeX2e}
