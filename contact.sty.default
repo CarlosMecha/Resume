@@ -5,14 +5,12 @@
 % To use it discomment the first line.
 
 \newcommand{\myName}{My name}
+\newcommand{\myTitle}{My title}
 \newcommand{\myEmail}{My email}
-\newcommand{\mySkype}{My skype account}
 \newcommand{\myPhone}{My phone number}
 \newcommand{\myAddress}{My address}
+\newcommand{\myLinkedin}{https://linkedin.com/in/me}
 \newcommand{\myStatus}{
   Enhancing my Résumé!! 
-}
-\newcommand{\myVisa}{
-  I'm able to work in Mordor.
 }
 

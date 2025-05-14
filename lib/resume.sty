@@ -21,13 +21,18 @@
 
 % Résumé header.
 % param1: By default your name.
-% param2: Your contact information.
-% param3: Address or status.
-\newcommand{\header}[3]{
+% param2: Your existing title.
+% param3: LinkedIn profile.
+% param4: Your contact information.
+% param5: Address or status.
+\newcommand{\header}[5]{
   \begin{center}
     \uppercase{\textbf{\Huge#1}}\\
-    \textbf{\emph{#2}}\\
-    {\small{#3}}
+    \uppercase{\textbf{#2}}\\
+    \textbf{\emph{#3}}\\
+    {\small{#4}}\\
+    {\small{#5}}
+
   \end{center}
 }
 
